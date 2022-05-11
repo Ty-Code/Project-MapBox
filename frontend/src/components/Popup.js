@@ -4,25 +4,23 @@ import LocationsContext from '../context/LocationsContext';
 import SelectedLocationsContext from '../context/SelectedLocationsContext';
 
 const PopupCreator = () => {
-  const [showPopup, setShowPopup] = useState(true);
   const { locations, setLocations } = useContext(LocationsContext);
   const { selectedLocation, setSelectedLocation } = useContext(SelectedLocationsContext);
   console.log(selectedLocation);
   console.log(locations);
-  
+
   return (
     <div>
-      {showPopup &&
-        locations &&
+      {locations &&
         locations.map(
-          (location, i) =>
+          (location) =>
             location._id === selectedLocation && (
               <Popup
                 longitude={location.lon}
                 latitude={location.lat}
                 anchor="left"
-                onClose={() => setShowPopup(false)}
-                key={i}
+                onClose={() => setSelectedLocation(null)}
+                key={location._id}
               >
                 <div className="popup-card">
                   title: {location.title}
