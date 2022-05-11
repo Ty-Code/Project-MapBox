@@ -7,8 +7,8 @@ const Mapper = () => {
   return (
     <Map
       initialViewState={{
-        longitude: 17,
-        latitude: 46,
+        longitude: 10,
+        latitude: 45,
         zoom: 6,
       }}
       style={{ width: `100vw`, height: `100vh` }}
