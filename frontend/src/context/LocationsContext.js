@@ -1,10 +1,9 @@
-import { createContext, useState, useEffect } from 'react';
+import { createContext } from 'react';
 import useFetch from '../hooks/useFetch';
 
 const LocationsContext = createContext();
 
 export const LocationProvider = ({ children }) => {
-  // const [locations, setLocations] = useState([]);
 
   const { data: locations } = useFetch('/locations');
 

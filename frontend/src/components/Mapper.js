@@ -4,7 +4,6 @@ import Popup from './Popup.js';
 
 const Mapper = () => {
 
-
   return (
     <Map
       initialViewState={{
