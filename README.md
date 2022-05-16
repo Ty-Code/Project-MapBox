@@ -1,6 +1,4 @@
-# Project-Traveler-App
-
-# MAPPINNER-App
+# Project-Mappiner-App
 
 ## 1. Project Overview
 
