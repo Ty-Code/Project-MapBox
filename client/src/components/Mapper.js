@@ -8,9 +8,9 @@ import spinner from '../assets/spinner.gif';
 import LocationsContext from '../context/LocationsContext.js';
 
 const Mapper = () => {
-  const { newPin, setNewPin } = useContext(NewPinContext);
-  const { selectedLocation, setSelectedLocation } = useContext(SelectedLocationsContext);
-  const { locations, setLocations, isError, isLoading } = useContext(LocationsContext);
+  const { setNewPin } = useContext(NewPinContext);
+  const { selectedLocation } = useContext(SelectedLocationsContext);
+  const { locations, isError, isLoading } = useContext(LocationsContext);
 
   const handleMapClick = (e) => {
     const { lng: lon, lat } = e.lngLat;

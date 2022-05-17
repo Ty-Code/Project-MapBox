@@ -3,8 +3,8 @@ import LocationsContext from '../context/LocationsContext';
 import FavoriteCard from './FavoriteCard';
 import spinner from '../assets/spinner.gif';
 
-const Favorites = ({}) => {
-  const { locations, setLocations, isError, isLoading } = useContext(LocationsContext);
+const Favorites = () => {
+  const { locations, isError, isLoading } = useContext(LocationsContext);
 
   return (
     <ul className="favorites--list">

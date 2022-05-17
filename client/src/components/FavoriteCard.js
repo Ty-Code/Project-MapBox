@@ -8,8 +8,8 @@ import axios from 'axios';
 
 const FavoriteCard = ({ location }) => {
   const navigate = useNavigate();
-  const { selectedLocation, setSelectedLocation } = useContext(SelectedLocationsContext);
-  const { selectedNavBtn, setSelectedNavBtn } = useContext(NavBtnContext);
+  const { setSelectedLocation } = useContext(SelectedLocationsContext);
+  const { setSelectedNavBtn } = useContext(NavBtnContext);
   const { locations, setLocations } = useContext(LocationsContext);
 
   const handleSelection = (location) => {

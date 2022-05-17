@@ -6,7 +6,7 @@ import SelectedLocationsContext from '../context/SelectedLocationsContext';
 
 const MarkerCreator = () => {
   const { locations } = useContext(LocationsContext);
-  const { selectedLocation, setSelectedLocation } = useContext(SelectedLocationsContext);
+  const { setSelectedLocation } = useContext(SelectedLocationsContext);
 
   const handleMarkerClick = (e, location) => {
     e.originalEvent.stopPropagation();
