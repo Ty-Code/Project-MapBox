@@ -4,9 +4,9 @@
 
 'Mappinner' is a multi page application using client-side routing. 
 
-The app allows the user to pin a location on an interactive map. The user can add a title and a description to every new pin he/she creates and also list all of the pins in the 'My Pins' page. When clicked on one of the listed pins, the app automatically directs the user to the pinned point on the map.
+The app allows the user to pin a location on an interactive map. The user can add a title and a description to every new pin created and also list all of the pins in the 'My Pins' page. When clicked on one of the listed pins, the app automatically directs the user to the pinned point on the map.
 
-React-Map-GL library, Mapbox API and MongoDB-Mongoose are used in the project.
+React-Map-GL library, Mapbox API and MongoDB/Mongoose are used in the project.
 
 #### Built With
 
@@ -36,9 +36,9 @@ then you could open http://localhost:3000 in the browser, if it wouldn't open au
 
  <ul class="contains-task-list">
 <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> Create the project structure.</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> Create an interactive map page to be able to pin new locations and see them.</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> Create a 'My Pins' page to see all pinned locations as a list.</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> Connect to a public API (mapbox) to use data.</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> Create an interactive map page to be able to pin new locations.</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> Create a 'My Pins' page to list all pinned locations.</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> Connect to a public API (mapbox).</li>
 <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> Style the app based on the colour palette of a company/organisation.</li>
 </ul>
 
