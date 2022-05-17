@@ -4,7 +4,7 @@
 
 'Mappinner' is a single page application that allows the user to pin a location on an interactive map. The user can add a title and a description to every new pin he/she creates. The user can also list all of the pins in the 'My Pins' page. When clicked on one of the listed pins, the app automatically directs the user to the pinned point on the map.
 
-React-Map-GL library and Mapbox API is used in the project.
+React-Map-GL library, Mapbox API and Mongoose are used in the project.
 
 #### Built With
 
